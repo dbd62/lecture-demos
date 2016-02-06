@@ -5,7 +5,7 @@ You now have the file `frankenstein.txt` in this directory.  Fill in each `p*.sh
 ## p1.sh
 
 Calculate the minimum used word in `frankenstein.txt`.
-
+grep -o frankenstein.txt | wc -1
 ## p2.sh
 
 Calculate the maximum used character in `frankenstein.txt`.
